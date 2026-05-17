@@ -1,0 +1,13 @@
+{
+  "name": "Tab Lister",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Lists all open tabs across all windows and saves them to storage as JSON.",
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "permissions": ["tabs", "storage", "alarms"],
+  "action": {
+    "default_title": "Sync Tabs Now"
+  }
+}

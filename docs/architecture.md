@@ -9,7 +9,7 @@ The project can be divided into 2 major components
 
 ```mermaid
 graph TD
-    A[Cron] --> |Updates at Interval| B[Global State];
+    A[Cron] --> |Updates at Interval| B[Update Global State];
     C[Webhook Handler] --> |On State Change| B;
     B --> D[UI Renderer];
 ```
