@@ -2,3 +2,6 @@
 
 # IDE
 .idea/
+
+# Local development
+frontend-dist

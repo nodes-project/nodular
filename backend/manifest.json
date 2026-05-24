@@ -8,6 +8,7 @@
   },
   "permissions": ["tabs", "storage", "alarms"],
   "action": {
-    "default_title": "Sync Tabs Now"
+    "default_title": "Sync Tabs Now",
+    "default_popup": "frontend-dist/index.html"
   }
 }
